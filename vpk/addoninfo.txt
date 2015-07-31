@@ -1,0 +1,33 @@
+// The addoninfo.txt file is a metadata file that is required by all Source Engine Add-ons. 
+ 
+"AddonInfo"
+{
+     addonSteamAppID         550                                                     // 500 is the app ID for Left 4 Dead
+     addontitle              "Horde Mode"                                             // Add-on title that shows up in Add-ons list. ~20 chars max
+     addonversion            1                                                     // Version number of add-on version of the form <major>.<minor>
+     addontagline            "Fight nearly endless waves of common infected in different game modes! No Special Infected."	             // Add-on tagline or wrap-up- a short description. ~100 chars max
+     addonauthor             "Steve 'ryz' Hassenpflug"                                                 // Name/alias of the author
+addonContent_Versus 0
+//     addonSteamGroupName     ""       // (Optional) Steam group related to the add-on. We use this to construct a URL to the group page.
+     addonauthorSteamID      "ryz_"                                            // (Optional) Steam ID of author. We use this to construct a URL to the author's page.
+     addonContent_Campaign 0                                                    //This addon provides muliple connected maps with a finale
+//     addonURL0               "http://www.steve-hassenpflug.de"  //An html home page for the add-on that includes a download link.
+ 
+     // short description that appears in the Add-on list screen...
+     addonDescription        "Fight nearly endless waves of common infected in different game modes! No Special Infected."
+ 
+     // Authors can add localized descriptions here. (Not yet supported)
+//     addonDescription_FR     ""	
+
+addonContent_BackgroundMovie   0   //Provides a replacement for the background movie.
+addonContent_Survivor          0    //Provides a new survivor model. 0=false, 1=true, String in quotes if replaces specific single character, i.e. "Francis"
+addonContent_BossInfected       0    //Provides a new boss infected model. Break these out?
+addonContent_CommonInfected    0    //Provides a new common infected model
+addonContent_WeaponModel      0    //Provides a new appearance to existing weapons, but does not change their function
+addonContent_weapon          0     //provides new weapons or new zombie killing functionality, i.e. guns, explosives, booby traps, hot tar, 
+addonContent_Skin             0     //0 if no new skin textures for existing models. 1 if multiple skin pack. String in quotes if specific single skin
+addonContent_Spray             0     //Provides new sprays. 
+addonContent_Map             0   //Add-on provides a standalone map 
+addonContent_Script 	   1          // Has Scripts
+
+}
